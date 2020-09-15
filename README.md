@@ -11,7 +11,8 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 ```
-5. Install [`NERD commenter`](https://github.com/preservim/nerdcommenter) (for using `<leader>cc` to toggle comments and block of comments): ```
+5. Install [`NERD commenter`](https://github.com/preservim/nerdcommenter) (for using `<leader>cc` to toggle comments and block of comments): 
+```
 cd ~/.vim/bundle 
 git clone https://github.com/preservim/nerdcommenter.git
 ```
