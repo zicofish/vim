@@ -18,8 +18,8 @@ git clone https://github.com/preservim/nerdcommenter.git
 ```
 Afterwards, according to my comment in `.vimrc`, I will change the default key mapping `<leader>c<space>` to `<leader>cc` for toggling comments in `NERD_commenter.vim`: 
 ```
-\#call s:CreateMaps('nx', 'Comment',    'Comment', 'cc') 
-\#call s:CreateMaps('nx', 'Toggle',     'Toggle', 'c<space>') 
+"call s:CreateMaps('nx', 'Comment',    'Comment', 'cc') 
+"call s:CreateMaps('nx', 'Toggle',     'Toggle', 'c<space>') 
 call s:CreateMaps('nx', 'Comment',    'Comment', 'c<space>') 
 call s:CreateMaps('nx', 'Toggle',     'Toggle', 'cc')
 ```
