@@ -16,7 +16,7 @@ git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 cd ~/.vim/bundle 
 git clone https://github.com/preservim/nerdcommenter.git
 ```
-Afterwards, according to my comment in `.vimrc`, I will change the default key mapping `<leader>c<space>` to `<leader>cc` for toggling comments in `NERD_commenter.vim`: 
+Afterwards, according to my comment in `.vimrc`, I will change the default key mapping `<leader>c<space>` to `<leader>cc` for toggling comments in `~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim`: 
 ```
 "call s:CreateMaps('nx', 'Comment',    'Comment', 'cc') 
 "call s:CreateMaps('nx', 'Toggle',     'Toggle', 'c<space>') 
